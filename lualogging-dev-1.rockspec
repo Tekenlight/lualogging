@@ -22,9 +22,6 @@ description = {
   homepage = "https://github.com/"..github_account_name.."/"..github_repo_name,
   license = "MIT/X11",
 }
-dependencies = {
-  "luasocket"
-}
 build = {
   type = "none",
   install = {
