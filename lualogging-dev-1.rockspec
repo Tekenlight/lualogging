@@ -1,7 +1,7 @@
 local package_name = "lualogging"
 local package_version = "dev"
 local rockspec_revision = "1"
-local github_account_name = "lunarmodules"
+local github_account_name = "Tekenlight"
 local github_repo_name = package_name
 
 
