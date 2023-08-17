@@ -1,7 +1,7 @@
 local package_name = "lualogging"
 local package_version = "dev"
 local rockspec_revision = "1"
-local github_account_name = "lunarmodules"
+local github_account_name = "Tekenlight"
 local github_repo_name = package_name
 
 
@@ -9,8 +9,8 @@ package = package_name
 version = package_version.."-"..rockspec_revision
 source = {
   url = "git://github.com/"..github_account_name.."/"..github_repo_name..".git",
-  branch = (package_version == "dev") and "master" or nil,
-  tag = (package_version ~= "dev") and ("v"..package_version) or nil,
+  -- branch = (package_version == "dev") and "master" or nil,
+  -- tag = (package_version ~= "dev") and ("v"..package_version) or nil,
 }
 description = {
   summary = "A simple API to use logging features",
@@ -22,6 +22,7 @@ description = {
   homepage = "https://github.com/"..github_account_name.."/"..github_repo_name,
   license = "MIT/X11",
 }
+dependencies = {}
 build = {
   type = "none",
   install = {
